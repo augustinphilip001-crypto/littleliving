@@ -31,7 +31,7 @@ body{
 .logo{
   font-size:28px;
   font-weight:700;
-  letter-spacing:1px;
+  color:#fff;
 }
 
 nav a{
@@ -39,17 +39,18 @@ nav a{
   text-decoration:none;
   margin-left:30px;
   transition:0.3s;
+  font-weight:500;
 }
 
 nav a:hover{
-  color:#d8b07b;
+  color:#f3c57d;
 }
 
 .hero{
   height:100vh;
   background:
   linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.7)),
-  url('https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=1600&auto=format&fit=crop');
+  url('https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1600&auto=format&fit=crop');
   background-size:cover;
   background-position:center;
   display:flex;
@@ -64,21 +65,21 @@ nav a:hover{
 }
 
 .premium-tag{
-  color:#d8b07b;
+  color:#f3c57d;
   letter-spacing:3px;
   font-size:14px;
 }
 
 .hero-content h1{
   font-size:72px;
-  margin:20px 0;
   line-height:1.1;
+  margin:20px 0;
 }
 
 .hero-content p{
-  font-size:20px;
   color:#ddd;
   line-height:1.8;
+  font-size:20px;
   margin-bottom:40px;
 }
 
@@ -123,7 +124,7 @@ section{
 }
 
 .section-top span{
-  color:#d8b07b;
+  color:#f3c57d;
   letter-spacing:2px;
   font-size:14px;
 }
@@ -205,12 +206,22 @@ section{
   background:#1ebe5d;
 }
 
-.about-section p{
-  max-width:850px;
+.about-container{
+  max-width:900px;
   margin:auto;
-  text-align:center;
+}
+
+.about-text{
+  background:#171717;
+  padding:50px;
+  border-radius:25px;
+  box-shadow:0 15px 35px rgba(0,0,0,0.3);
+}
+
+.about-text p{
   color:#ccc;
-  line-height:1.9;
+  line-height:2;
+  margin-bottom:25px;
   font-size:18px;
 }
 
