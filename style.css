@@ -10,7 +10,7 @@ html{
 
 body{
   font-family:'Poppins',sans-serif;
-  background:#f8f8f8;
+  background:#f7f7f7;
   color:#222;
   overflow-x:hidden;
 }
@@ -24,7 +24,7 @@ body{
   align-items:center;
   padding:22px 8%;
   z-index:1000;
-  background:rgba(255,255,255,0.9);
+  background:rgba(255,255,255,0.92);
   backdrop-filter:blur(12px);
   box-shadow:0 2px 20px rgba(0,0,0,0.05);
 }
@@ -50,10 +50,12 @@ nav a:hover{
 .hero{
   height:100vh;
   background:
-  linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),
+  linear-gradient(rgba(255,255,255,0.55),rgba(255,255,255,0.55)),
   url('wooden1.jpg');
+
   background-size:cover;
   background-position:center;
+
   display:flex;
   justify-content:center;
   align-items:center;
@@ -63,10 +65,11 @@ nav a:hover{
 
 .hero-content{
   max-width:850px;
-  background:rgba(255,255,255,0.75);
-  padding:50px;
-  border-radius:30px;
+  background:rgba(255,255,255,0.78);
+  padding:55px;
+  border-radius:35px;
   backdrop-filter:blur(10px);
+  box-shadow:0 10px 40px rgba(0,0,0,0.08);
 }
 
 .premium-tag{
