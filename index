@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+          <p>
+            Handcrafted dining table built with premium wood finish.
+          </p>
+
+          <a
+            href="https://wa.me/919999999999?text=Hi,%20I%20am%20interested%20in%20the%20Dining%20Table"
+            target="_blank">
+
+            Enquire
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="about-section">
+
+    <h2>About Us</h2>
+
+    <p>
+      Little Living creates handcrafted wooden furniture and living spaces designed
+      for comfort, elegance, and timeless aesthetics.
+    </p>
+
+  </section>
+
+
+  <section class="gallery-section">
+
+    <h2>Gallery</h2>
+
+    <div class="gallery-grid">
+
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop">
+
+      <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=1200&auto=format&fit=crop">
+
+      <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=1200&auto=format&fit=crop">
+
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop">
+
+    </div>
+
+  </section>
+
+
+  <footer>
+
+    © 2026 Little Living — All Rights Reserved
+
+  </footer>
+
+
+  <a
+    class="floating-whatsapp"
+    href="https://wa.me/919999999999"
+    target="_blank">
+
+    ☎
+
+  </a>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
